@@ -1,0 +1,47 @@
+.pedidos-content{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    padding: 5vh 15vh;
+    gap: 2vh;
+}
+
+.pedidos-left-panel{
+    display: grid;
+    grid-template-rows: 10% 5% 5% 5% 5% 5%;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pedidos-right-panel{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2vh 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    gap: 2vh;
+}
+
+.pedidos-right-panel h2{
+    grid-column: 1/4;
+}
+
+.pedido-card{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 45% 28% 20%;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pedido-img{
+    height: 25vh;
+    width: 12vh;
+    margin-top: 2vh;
+}
+
+.info-pedido{
+    font-size: 0.8em;
+    line-height: 0.5px;
+}
