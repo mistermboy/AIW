@@ -22,7 +22,7 @@
 .tool{
     display: grid;
     grid-template-columns: 30% 70%;
- 
+
     height: 30vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
