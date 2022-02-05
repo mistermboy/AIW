@@ -29,6 +29,10 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.mobile-card h2{
+    font-size: 1.5em;
+}
+
 .mobile-img{
     height: 30vh;
     width: 15vh;
