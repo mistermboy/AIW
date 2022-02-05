@@ -1,0 +1,16 @@
+.alarm-card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 5vh;
+    width: 120vh !important;
+}
+
+.test-v-cont{
+    line-height: 1.3em;
+}
+.bb{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
