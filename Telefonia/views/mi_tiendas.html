@@ -1,0 +1,122 @@
+
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="images/tienda.jpg" alt="" uk-cover>
+
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <p class="uk-text-lead uk-text-bold">Más de 103 tiendas en toda España</p>
+                    <p class="uk-text-large">
+                        <b>Disponemos de 103 tiendas en toda España, localiza tu tienda más cercana, si no</b>
+                        hay ninguna tienda cerca de tí recuerda que la mayor parte de los productos pueden ser
+                        enviados directamente a tu casa.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-rigth uk-cover-container">
+                <div id="map" class="map"></div>
+                <script type="text/javascript">
+                    var map = new ol.Map({
+                        target: 'map',
+                        layers: [
+                            new ol.layer.Tile({
+                                source: new ol.source.OSM()
+                            })
+                        ],
+                        view: new ol.View({
+                            center: ol.proj.fromLonLat([-5.849, 43.36]),
+                            zoom: 9
+                        })
+                    });
+
+                    var markers = new ol.layer.Vector({
+                        source: new ol.source.Vector(),
+                        style: new ol.style.Style({
+                            image: new ol.style.Icon({
+                                anchor: [0.5, 1],
+                                src: 'images/tienda_marker.png'
+                            })
+                        })
+                    });
+
+                    var marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat([-5.849, 43.36])));
+                    markers.getSource().addFeature(marker);
+
+                    var marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat([ -5.677,  43.52])));
+                    markers.getSource().addFeature(marker);
+                    
+                    map.addLayer(markers);
+
+                </script>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <p class="uk-text-lead uk-text-bold">Todas nuestras tiendas o busca tu tienda más cercana</p>
+                    <p class="uk-text-large">
+                        <ul>
+                            <li>Alicante	Avenida Maisonnave, 20</li>
+                            <li>Barcelona	Rambla De Cataluña, 87</li>
+                            <li>Barcelona	Calle Pelayo, 48</li>
+                            <li>Barcelona	Avinguda del Portal del Ángel, 36</li>
+                            <li>Barcelona	Avenida Diagonal, 601</li>
+                            <li>Bilbao	Calle Ercilla, 32</li>
+                            <li>Córdoba	Concepción, 1</li>
+                            <li>La Coruña	Plaza Pontevedra, 10</li>
+                            <li>Las Palmas	Calle Mayor De Triana, 103</li>
+                            <li>Granada	Calle Reyes Católicos, 13</li>
+                            <li>Madrid	Calle Goya, 45</li>
+                            <li>Madrid	Calle Fuencarral, 90</li>
+                            <li>Madrid	Calle Bravo Murillo, 212</li>
+                            <li>Madrid	Avenida Monforte De Lemos, 36 Local 78</li>
+                            <li>Madrid	Plaza Puerta Del Sol, 13</li>
+                            <li>Madrid	Calle Marqués de Urquijo, 1</li>
+                            <li>Málaga	Calle Marqués de Larios, 2</li>
+                            <li>Pamplona	Avenida Carlos III, 20</li>
+                            <li>Oviedo	Avenida Galicia, 10</li>
+                            <li>Palma De Mallorca	Calle Aragón, 6</li>
+                            <li>San Sebastián	Calle Txurruka, 9</li>
+                            <li>Salamanca	Calle Toro, 65</li>
+                            <li>Santa Cruz De Tenerife	Calle Castillo, 64</li>
+                            <li>Santander	Calle Calvo Sotelo, 14</li>
+                            <li>Sevilla	Calle Tetuán, 16</li>
+                            <li>Sevilla	Calle Luis De Morales, 20-24</li>
+                            <li>Valencia	Calle Colón, 50</li>
+                            <li>Valencia	Calle Roger de Lauria, 2</li>
+                            <li>Valladolid	Calle Santiago, esq. Calle Zúñiga,  2</li>
+                            <li>Vigo	Avenida Gran Via, 11</li>
+                            <li>Vitoria-Gasteiz	Calle Eduardo Dato, 10</li>
+                            <li>Zaragoza	Paseo de la Independencia, 27</li>
+
+                </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="images/tienda.jpg" alt="" uk-cover>
+
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <p class="uk-text-lead uk-text-bold">Detalles de las tiendas</p>
+                    <p class="uk-text-large">
+                        Podrás pasar por nuestras tiendas a firmar cualquier contrato de forma fisica o recoger cualquier producto que hayas comprado.
+                        Horario de 9:00 a 22:00, de Lunes a Sabado.
+                        Podrás encontrar información sobre las ofertas de empleo activas en <a href="/mi_trabaja">Trabaja con nosotros</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+

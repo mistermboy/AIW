@@ -1,0 +1,91 @@
+
+
+
+<section class="uk-section uk-section-default">
+    <div class="uk-container" >
+
+        <div uk-grid>
+
+            <div class="uk-card uk-card-default uk-grid-collapse uk-margin uk-width-1-1" uk-grid>
+                <table id="tabla" class="display">
+                    <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Número</th>
+                        <th>Duración</th>
+                        <th>Tipo</th>
+                        <th>Coste</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>13/12/2021, 18:40</td>
+                        <td>623725326</td>
+                        <td>18m 9s</td>
+                        <td>Incluido</td>
+                        <td>0€</td>
+                    </tr>
+                    <tr>
+                        <td>13/12/2021, 17:40</td>
+                        <td>347324324</td>
+                        <td>1m 10s</td>
+                        <td>Incluido</td>
+                        <td>0€</td>
+                    </tr>
+                    <tr>
+                        <td>13/12/2021, 14:40</td>
+                        <td>347324324</td>
+                        <td>1m 10s</td>
+                        <td>Incluido</td>
+                        <td>0€</td>
+                    </tr>
+                    <tr>
+                        <td>13/12/2021, 13:40</td>
+                        <td>347324324</td>
+                        <td>1m 10s</td>
+                        <td>Incluido</td>
+                        <td>0€</td>
+                    </tr>
+                    <tr>
+                        <td>13/12/2021, 12:40</td>
+                        <td>347324324</td>
+                        <td>1m 10s</td>
+                        <td>Incluido</td>
+                        <td>0€</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <script>
+
+                $('#tabla thead tr:eq(0) th').each( function (i) {
+                    var title = $(this).text();
+                    $(this).html( '<input type="text" placeholder="'+title+'" />' );
+
+                    $( 'input', this ).on( 'keyup change', function () {
+                        if ( table.column(i).search() !== this.value ) {
+                            table
+                                .column(i)
+                                .search( this.value )
+                                .draw();
+                        }
+                    } );
+                } );
+
+                var table = $('#tabla').DataTable( {
+                    orderCellsTop: true,
+                    fixedHeader: true,
+                    pageLength: 25
+                } );
+
+                $( "#tabla_filter" ).remove();
+                $( "#tabla_length" ).remove();
+                $( "#tabla_info" ).remove();
+
+                $( "#tabla_next" ).text("Siguiente");
+                $( "#tabla_previous" ).text("Anterior");
+            </script>
+
+        </div>
+    </div>
+</section>
