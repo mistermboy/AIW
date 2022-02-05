@@ -3,26 +3,41 @@
     justify-content: center;
     grid-template-rows: 10% auto;
     margin: 10vh 0px ; 
-    height: 150vh;
+    height: 130vh;
 }
 
 .content h1{
     text-align: center;
 }
 
-.packs-container{
+.tools-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 90%;
+    justify-content: center;
     width: 150vh;
     gap: 5vh;
 }
 
-.pack{
+.tool{
     display: grid;
-    grid-template-rows: 20% 45% 20% 15%;
-    padding: 5vh 0vh;
-    justify-content: center;
+    grid-template-columns: 30% 70%;
+ 
+    height: 30vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.tool-img{
+    height: 210px;
+    width: 1000px;
+}
+
+.tool-info-cont{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 10% 50% 30%;
+    padding: 20px;
 }
 
 .button {
@@ -34,4 +49,5 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+
   }
