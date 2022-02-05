@@ -20,6 +20,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 5px 5px #f5f2f2;
 }
 
 .header-contaiter-3 {
@@ -27,6 +28,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fit,11%);
+    box-shadow: 10px 5px 5px #f5f2f2;
 }
 
 .header-contaiter-3 a {
