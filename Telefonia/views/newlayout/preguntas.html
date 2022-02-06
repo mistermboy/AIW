@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../../public/css/uikit.css"/>
     <link rel="stylesheet" href="../../public/css/styles.css"/>
-    <link rel="stylesheet" href="../../public/css/contacto.css"/>
+    <link rel="stylesheet" href="../../public/css/preguntas.css"/>
     <script src="../../public/js/jquery.min.js"></script>
     <script src="../../public/js/uikit.js"></script>
     <script src="../../public/js/uikit-icons.js"></script>
@@ -32,7 +32,7 @@
 <header class="header-big-container">
     <div class="header-contaiter-1">
         <a>Autónomos y empresas</a>
-        <a>contacto</a>
+        <a>Ayuda</a>
         <a>Area Clientes</a>
     </div>
     <div class="header-contaiter-2">
@@ -45,46 +45,43 @@
         <a><img  src="../../public/images/header/linea-internet.png" alt=""><span>Packs</span></a>
         <a><img  src="../../public/images/header/linea-internet.png" alt=""><span>Móviles y más</span></a>
         <a><img  src="../../public/images/header/linea-internet.png" alt=""><span>Herramientas</span></a>
-        <a><img  src="../../public/images/header/linea-internet.png" alt=""><span>contacto</span></a>
+        <a><img  src="../../public/images/header/linea-internet.png" alt=""><span>Ayuda</span></a>
     </div>
 </header>
 
 
 <div class="content">
-    <h1>Contacto</h1>
-    <div class="contacto-container">
-        <div class="contacto">
-            <img class="contacto-img" src="../../public/images/slider1.png" >
-            <div class="contacto-info-cont">
-                <h2>Garantía y soporte técnico</h2>
-                <div>
-                    <p>Puedes consultar el Servicio de Garantía y Soporte técnico a través de los siguientes medios:</p>
-                    <p>Teléfono: 900 410 773 (sólo clientes)</p>
-                    <p>Email: soporteclientes@telefonico.com</p>
-                </div>
-            </div>
-        </div>
-        <div class="contacto">
-            <img class="contacto-img" src="../../public/images/slider2.png" >
-            <div class="contacto-info-cont">
-                <h2>Llámanos para más información</h2>
-                <div>
-                    <p>Lunes a Viernes de 8:00 a 21:00</p>
-                    <p>Sábados de 8:00 a 16:00</p>
-                    <h3>900 109 473</h3>
-                </div>
-            </div>
-        </div>
-        <div class="contacto">
-            <img class="contacto-img" src="../../public/images/slider1.png" >
-            <div class="contacto-info-cont">
-                <h2>Escríbenos para cualquier consulta</h2>
-                <div>
-                    <p>Puedes consultar información sobre el proceso de contratación, productos y servicios en cualquier momento utilizando nuestro correo electrónico.</p>
-                    <h3>info@telefonico.com</h3>
-                </div>
-            </div>
-        </div>
+    <h1>Preguntas frecuentes</h1>
+    <div class="preguntas-container">
+       <div class="preguntas-filtro">
+            <select name="tipo" id="tipo-combo">
+                <option value="tipo" >Tipo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+          </select>
+          <input type="text" id="fname" name="fname" placeholder="Buscar..."><br><br>
+       </div>
+       <h2>Resultados de la búsqueda</h2>
+       <div class="preguntas-resultado">
+            <div class="preguntas-seccion">
+                <a><h3>Mando a distacia</h3></a>
+                <a><img  src="../../public/images/icons/flecha.png" width="30" alt=""></a>
+            </div> 
+            <div class="preguntas-seccion">
+                <a><h3>Consulta tu cobertura</h3></a>
+                <a><img  src="../../public/images/icons/flecha.png" width="30" alt=""></a>
+            </div> 
+            <div class="preguntas-seccion">
+                <a><h3>Instalación</h3></a>
+                <a><img  src="../../public/images/icons/flecha.png" width="30" alt=""></a>
+            </div> 
+            <div class="preguntas-seccion">
+                <a><h3>Garantía y devolución</h3></a>
+                <a><img  src="../../public/images/icons/flecha.png" width="30" alt=""></a>
+            </div> 
+       </div>
+       <h3>¿No encuentras lo que buscas? Accede al listado completo de <a>preguntas frecuentes</a></h3>
     </div>
     
 </div>
@@ -122,7 +119,7 @@
                 </ul>
             </div>
             <div>
-                <h4 class="uk-margin-top">contacto</h4>
+                <h4 class="uk-margin-top">Ayuda</h4>
                 <ul class="uk-list uk-list-bullet">
                     <li><a href="/e_pequenas">Contacto</a></li>
                     <li><a href="/packs">Preguntas frecuentes</a></li>
