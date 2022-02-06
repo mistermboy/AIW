@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../../public/css/uikit.css"/>
     <link rel="stylesheet" href="../../public/css/styles.css"/>
-    <link rel="stylesheet" href="../../public/css/ayuda.css"/>
+    <link rel="stylesheet" href="../../public/css/grandes-empresas.css"/>
     <script src="../../public/js/jquery.min.js"></script>
     <script src="../../public/js/uikit.js"></script>
     <script src="../../public/js/uikit-icons.js"></script>
@@ -22,6 +22,23 @@
         .map {
             height: 400px;
             width: 100%;
+        }
+
+
+        .emp-content{
+            display: grid;
+            grid-template-rows: 5% 25% 10% auto ;
+            margin: 5vh 0px ; 
+            height: 160vh;
+        }
+
+
+        .emp-content h2,h1{
+            text-align: center;
+        }
+
+        .emp-content h2{
+            font-size: 1.9em;
         }
     </style>
 </head>
@@ -50,35 +67,50 @@
 </header>
 
 
-<div class="content">
-    <h1>Ayuda</h1>
-    <div class="ayuda-container">
-        <div class="ayuda">
-            <img class="ayuda-img" src="../../public/images/slider1.png" >
-            <div class="ayuda-info-cont">
-                <h2>Contacto</h2>
-                <p>Póngase en contacto con nosotros si no encuentra lo que busca o tiene alguna duda</p>
-                <button class="button">VER DATOS DE CONTACTO</button>
-            </div>
-        </div>
-        <div class="ayuda">
-            <img class="ayuda-img" src="../../public/images/slider2.png" >
-            <div class="ayuda-info-cont">
-                <h2>Preguntas más frecuentes</h2>
-                <p>Consulte las preguntas más frecuentes de nuestros usuarios.</p>
-                <button class="button">CONSULTAR PREGUNTA FRECUENTES</button>
-            </div>
-        </div>
-        <div class="ayuda">
-            <img class="ayuda-img" src="../../public/images/slider1.png" >
-            <div class="ayuda-info-cont">
-                <h2>Asistencia y soporte técnico</h2>
-                <p>Disponemos de un personale técnico disponible las 24h del día para ayudarle a solucionar culquier problema con sus servicios contratados.</p>
+<div class="emp-content">
+    <h1>Empresas</h1>
+    <div class="empresas-banner">
+        <h2>Casos de Éxito</h2>
+        <img class="empresa-img" src="../../public/images/slider1.png" >
+        <img class="empresa-img" src="../../public/images/slider1.png" >
+        <img class="empresa-img" src="../../public/images/slider1.png" >
+        <img class="empresa-img" src="../../public/images/slider1.png" >
+        <img class="empresa-img" src="../../public/images/slider1.png" >
+    </div>
+
+    <h2>Servicios para grandes empresas</h2>
+    <div class="grandes-empresas-container">
+        <div class="empresa">
+            <img class="empresa-img" src="../../public/images/slider1.png" >
+            <div class="empresa-info-cont">
+                <h3>Housing</h3>
+                <div>
+                    <p>El Housing es la solución que permite a los clientes alojar sus sistema de información e infrastructuras críticas en Centros de Datos Profesionales.</p>
+                    <ul>
+                        <li>Salida a Internet redundada y protegida en Centro de Datos Profesionales.</li>
+                        <li>Servicios profesionales de administración: Manos remotas y servicios profesionales de administración delegada.</li>
+                    </ul>
+                </div>    
                 <button class="button">VER MÁS</button>
             </div>
         </div>
-    </div>
-    
+        <div class="empresa">
+            <img class="empresa-img" src="../../public/images/slider2.png" >
+            <div class="empresa-info-cont">
+                <h3>Copia de seguridad en la nube</h3>
+                <div>
+                    <p>Si no quiere preocuparse por tener que guardar sus copias de seguridad en algún lugar seguro, nosostros lo hacemos por usted.</p>
+                    <ul>
+                        <li>Espacio de almacenamiento infinito</li>
+                        <li>Pague solamente por el espacio ocupado</li>
+                        <li>Redundancia de almacenamiento en 3 localizaciones diferentes</li>
+                        <li>Acceso a los datos 24/7</li>
+                    </ul>
+                </div>
+                <button class="button">VER MÁS</button>
+            </div>
+        </div>
+    </div>    
 </div>
 
 <!--FOOTER-->

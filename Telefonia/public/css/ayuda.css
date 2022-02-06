@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.tools-container{
+.ayuda-container{
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 90%;
@@ -19,20 +19,20 @@
     gap: 5vh;
 }
 
-.tool{
+.ayuda{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 
     height: 30vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.tool-img{
+.ayuda-img{
     height: 210px;
     width: 1000px;
 }
 
-.tool-info-cont{
+.ayuda-info-cont{
     display: grid;
     justify-content: center;
     align-items: center;
