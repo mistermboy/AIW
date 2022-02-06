@@ -1,4 +1,4 @@
-.content{
+.pequeñas-empresas-content{
     display: grid;
     grid-template-rows: 2% 5% 25% 8% auto ;
     margin: 5vh 0px ; 
@@ -6,11 +6,11 @@
 }
 
 
-.content h2,h1{
+.pequeñas-empresas-content h2,h1{
     text-align: center;
 }
 
-.content h2{
+.pequeñas-empresas-content h2{
        font-size: 1.5em;
 }
 

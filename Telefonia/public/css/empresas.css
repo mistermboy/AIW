@@ -1,0 +1,7 @@
+.empresas-container{
+    display: grid;
+    justify-content: center;
+    padding: 0vh 30vh;
+    gap: 4vh;
+    margin-bottom: 4vh;
+}

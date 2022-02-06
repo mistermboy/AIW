@@ -1,4 +1,4 @@
-.content{
+.grandes-empresas-content{
     display: grid;
     grid-template-rows: 5% 20% 15% 8% auto ;
     margin: 5vh 0px ; 
@@ -6,7 +6,7 @@
 }
 
 
-.content h2,h1{
+.grandes-empresas-content h2,h1{
     text-align: center;
 }
 

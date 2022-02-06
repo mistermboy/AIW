@@ -1,12 +1,12 @@
-.content{
+.contacto-content{
     display: grid;
     justify-content: center;
     grid-template-rows: 10% auto;
     margin: 10vh 0px ; 
-    height: 130vh;
+    height: 110vh;
 }
 
-.content h1{
+.contacto-content h1{
     text-align: center;
 }
 
