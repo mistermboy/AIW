@@ -1,4 +1,4 @@
-.content{
+.packs-content{
     display: grid;
     justify-content: center;
     grid-template-rows: 10% auto;
@@ -6,7 +6,7 @@
     height: 150vh;
 }
 
-.content h1{
+.packs-content h1{
     text-align: center;
 }
 

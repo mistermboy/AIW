@@ -1,4 +1,4 @@
-.content{
+.tools-content{
     display: grid;
     justify-content: center;
     grid-template-rows: 10% auto;
@@ -6,14 +6,15 @@
     height: 130vh;
 }
 
-.content h1{
+.tools-content h1{
     text-align: center;
 }
+
 
 .tools-container{
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     justify-content: center;
     width: 150vh;
     gap: 5vh;

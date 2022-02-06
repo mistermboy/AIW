@@ -1,4 +1,4 @@
-.content{
+.ayuda-content{
     display: grid;
     justify-content: center;
     grid-template-rows: 10% auto;
@@ -6,7 +6,7 @@
     height: 130vh;
 }
 
-.content h1{
+.ayuda-content h1{
     text-align: center;
 }
 

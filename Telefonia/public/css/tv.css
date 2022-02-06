@@ -1,0 +1,87 @@
+.content{
+    display: grid;
+    grid-template-rows: 3% 10% 4% ;
+    margin: 10vh 0px ; 
+    height: 220vh;
+    justify-content: center;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.tvh2{
+    font-size: 1.5em;
+    color: white;
+}
+
+.tvh2-price{
+    color: white;
+}
+
+.oferta-tv{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    padding: 1vh 15vh;
+    background-color: #82c2fd;
+    color:white;
+    gap: 2vh;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 
+
+
+  .tv-llama{
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-content: center;
+      background-color: #b5cadd;
+  }
+
+.tv-card{
+    display: grid;
+    background-color: red;
+    padding: 0vh 10vh;
+    grid-template-columns: 50% 50%;
+}
+
+.tools-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 90%;
+    justify-content: center;
+    width: 150vh;
+    gap: 5vh;
+}
+
+.tool{
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    height: 30vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.tool-img{
+    height: 210px;
+    width: 1000px;
+}
+
+.tool-info-cont{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 10% 50% 30%;
+    padding: 20px;
+}

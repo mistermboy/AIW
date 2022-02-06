@@ -1,4 +1,4 @@
-.content{
+.movil-content{
     display: grid;
     justify-content: center;
     grid-template-rows: 2% 3% 25% 15% 25% auto ;
@@ -6,11 +6,11 @@
     height: 220vh;
 }
 
-.content h1,h2{
+.movil-content h1,h2{
     text-align: center;
 }
 
-.content h2{
+.movil-content h2{
     font-size: 1.2em;
 }
 
