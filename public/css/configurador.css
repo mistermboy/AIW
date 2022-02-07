@@ -22,11 +22,12 @@
 }
 
 .configurador-card{
-    height: 39vh;
-    width: 150vh;
+    display: grid;
+    justify-content: center;
     box-shadow: 10px 5px 5px #f5f2f2;
     border: 1px solid #dfdfdf;
     margin-bottom: 5vh;
+    justify-self: center;
 }
 
 .configurar-h3-card{

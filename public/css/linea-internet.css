@@ -1,7 +1,7 @@
 .linea-internet-content{
     display: grid;
     justify-content: center;
-    grid-template-rows: 2% 8% 30% 20% 25% auto ;
+    grid-template-rows: 2% 8% 25% 20% 25% auto ;
     margin: 10vh 0px ; 
     height: 170vh;
 }
@@ -26,7 +26,6 @@
 .tarifa-linea-internet{
     display: grid;
     padding: 0vh !important;
-    background-color: red;
 }
 
 .tarifa-linea-internet img{
