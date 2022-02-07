@@ -1,9 +1,8 @@
 .home-content{
     display: grid;
-    justify-content: center;
-    grid-template-rows: 40% 10% auto;
+    grid-template-rows: 27% 8% 28% 10% 29.8%;
     margin: 10vh 0px ; 
-    height: 100vh;
+    height: 150vh;
     padding: 0vh 30vh;
 }
 
@@ -35,4 +34,27 @@
 
   .home-h2{
       justify-self: center;
+  }
+
+  .home-empresas{
+    background-color: #82c2fd;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    gap: 5vh;
+    text-align: start;
+    color:white;
+    
+  }
+  .casos-exito-home{
+      display: grid;
+  }
+
+  .empresas-home-h2{
+    color:white;
+      text-align: start;
+  }
+
+  .a-home:hover{
+    color: white;
   }

@@ -1,9 +1,10 @@
 .grandes-empresas-content{
     display: grid;
-    grid-template-rows: 5% 35% 15% 5% auto ;
+    grid-template-rows: 5% 31.7% 15% 6% auto ;
     margin: 5vh 0px ; 
-    height: 260vh;
+    height: 200vh;
 }
+
 
 
 .grandes-empresas-content h2,h1{
@@ -14,9 +15,6 @@
     display: grid;
     background-color: #82c2fd;
     justify-content: center;
-    padding: 5vh;
-    gap: 2vh;
-    height: 80vh;
 }
 
 .empresa-img-2{
@@ -118,3 +116,7 @@
     display: inline-block;
     font-size: 16px;
   }
+
+  .empresa{
+    height: 40vh !important;
+}
