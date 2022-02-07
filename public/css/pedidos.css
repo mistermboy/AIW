@@ -45,3 +45,13 @@
     font-size: 0.8em;
     line-height: 0.5px;
 }
+
+.entregado{
+    background-color: red;
+    height: 3vh;
+    font-size: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
