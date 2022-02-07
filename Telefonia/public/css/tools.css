@@ -41,6 +41,10 @@
     grid-template-columns: 100%;
 }
 
+.tool-info-cont button{
+    width: 100% ;
+}
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
