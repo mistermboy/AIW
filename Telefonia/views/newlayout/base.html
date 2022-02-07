@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../../public/css/uikit.css"/>
     <link rel="stylesheet" href="../../public/css/styles.css"/>
-    <link rel="stylesheet" href="../../public/css/buscador.css"/>
+    <link rel="stylesheet" href="../../public/css/configurador.css"/>
     <script src="../../public/js/jquery.min.js"></script>
     <script src="../../public/js/uikit.js"></script>
     <script src="../../public/js/uikit-icons.js"></script>
@@ -50,90 +50,114 @@
 </header>
 
 
-<div class="buscador-content">
-    <h1>Buscador de Tiendas</h1>
-    <h2>Busca la tienda más cercana por tu ubicación actual:</h2>
-    <button class="button-buscar">BUSCAR TIENDAS MÁS CERCANAS</button>
-    <h2>O utiliza nuestro buscador de tiendas:</h2>
-    <div class="bucador-container">
-        <select class="buscar-select" name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
-        <select class="buscar-select" name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
-        <select class="buscar-select" name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
-        <div class="resultados-busqueda">
-            <h2>Resultado de tu búsqueda:</h2>
-            <div class="resultado-busqueda borde-resultado">
-                <div class="resultados-busqueda-sub">
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Dirección</h3>
-                        <p>Calle Verona Fort n16 Gigón,Asturias</p>
-                    </div>
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Email</h3>
-                        <p>austefaandjohn@telefonico.com</p>
-                    </div>
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Teléfono</h3>
-                        <p>123456789</p>
-                    </div>
+<div class="configurador-content">
+    <h1>Configurador de Packs</h1>
+    <h2>Utilice nuestro configurador de packs para crear un pakc personalizado que se ajuste a sus necesidades. Seleccione las opciones que desee oara cada uno de los elementos del pack</h2>
+    <div class="configurador-container">
+        <div class="configurador-card">
+            <h3 class="configurar-h3-card">Línea Internet y Fijo</h3>
+            <div class="configurador-velocidad">
+                <div class="configurador-velocidad-1">
+                    <img  src="../../public/images/header/linea-internet.png" alt="">
+                    <h4>Velocidad de Internet</h4>
                 </div>
-                <div class="resultados-busqueda-sub">
-                    <h3>Horario</h3>
-                    <p>Lunes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Martes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Miércoles: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Jueves: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Viernes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Sábados: Cerrado</p>
-                    <p>Domingos: Cerrado</p>
+                <div class="configurador-velocidad-2">
+                    <button class="button-configurar ">150 MB</button>
+                    <button class="button-configurar">300 MB</button>
+                    <button class="button-configurar ">600 MB</button>
                 </div>
-                <button class="button-buscar button-realizar-pedido">REALIZAR PEDIDO</button>
             </div>
-            <div class="resultado-busqueda ">
-                <div class="resultados-busqueda-sub">
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Dirección</h3>
-                        <p>Calle Inventada Fort n16 Oviedo,Asturias</p>
-                    </div>
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Email</h3>
-                        <p>inventflix@telefonico.com</p>
-                    </div>
-                    <div class="resultados-busqueda-sub2">
-                        <h3>Teléfono</h3>
-                        <p>123456789</p>
-                    </div>
+            <div class="configurador-velocidad">
+                <div class="configurador-velocidad-1">
+                    <img  src="../../public/images/header/linea-internet.png" alt="">
+                    <h4>Número de líneas fijas</h4>
                 </div>
-                <div class="resultados-busqueda-sub">
-                    <h3>Horario</h3>
-                    <p>Lunes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Martes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Miércoles: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Jueves: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Viernes: 10:00-14:00 y 17:00-20:00</p>
-                    <p>Sábados: Cerrado</p>
-                    <p>Domingos: Cerrado</p>
+                <div class="configurador-velocidad-2">
+                    <button class="button-configurar ">1</button>
+                    <button class="button-configurar">2</button>
+                    <button class="button-configurar ">3</button>
                 </div>
-                <button class="button-buscar button-realizar-pedido">REALIZAR PEDIDO</button>
             </div>
+        </div>
+        <div class="configurador-card-2">
+            <h3 class="configurar-h3-card">Línea Móvil</h3>
+            <div class="configurtar-movil-apart">
+                <h4 class="configurador-h4">Línea móvil principal</h4>
+            </div>
+            <div class="configurador-velocidad">
+                <div class="configurador-velocidad-1">
+                    <img  src="../../public/images/header/linea-internet.png" alt="">
+                    <h4>Número de líneas fijas</h4>
+                </div>
+                <div class="configurador-velocidad-2">
+                    <button class="button-configurar ">5 GB</button>
+                    <button class="button-configurar">30 GB</button>
+                    <button class="button-configurar ">Datos ilimitados</button>
+                </div>
+            </div>
+            <div class="configurtar-movil-apart">
+                <h4 class="configurador-h4">Líneas móvil adicionales</h4>
+                <button class="button-configurar ">Añadir línea móvil adicional</button>
+            </div>
+        </div>
 
+        <div class="configurador-card-2">
+            <h3 class="configurar-h3-card">TV</h3>
+            <div class="configurtar-movil-apart">
+                <h4 class="configurador-h4">Pack TV</h4>
+            </div>
+            <div class="configurador-velocidad">
+                <div class="configurador-velocidad-3">
+                    <button class="button-configurar ">Series</button>
+                    <button class="button-configurar">Infantil</button>
+                    <button class="button-configurar ">Cine</button>
+                    <button class="button-configurar ">No incluir</button>
+                </div>
+            </div>
+            <div class="configurtar-movil-apart">
+                <h4 class="configurador-h4">Subscripciones</h4>
+                <div class="checks">
+                    <label class="check-container">Samsung
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="check-container">Xiaomi
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="check-container">Apple
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                
+                    </div>
+                    
+            </div>
+        </div>
+        <div class="configurador-card">
+            <h3 class="configurar-h3-card">Finaliza tu pedido</h3>
+            <div class="configurador-card-container">
+                <div class="configurador-sub-card">
+                    <img class="configurador-img" src="../../public/images/note9.png" >
+                    <button class="button-configurar ">Añadir dispositivo móvil</button>
+                </div>
+                <div class="configurador-sub-card">
+                    <img class="configurador-img" src="../../public/images/oppo.png" >
+                    <button class="button-configurar ">Añadir objeto inteligente</button>
+                </div>
+                <div class="configurador-sub-card">
+                    <img class="configurador-img" src="../../public/images/alarma.jpg" >
+                    <button class="button-configurar ">Añadir servicio de alarma</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="configurador-precio">
+            <h3 class="configurar-h3-card">Finaliza tu pedido</h3>
+      
         </div>
     </div>
-   
+
 </div>
 
 <!--FOOTER-->
