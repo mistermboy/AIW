@@ -45,9 +45,11 @@
     clear:both;
 }
 
-
-
-.footer-social-container{
- 
+.header-link{
+    color: #222;
 }
 
+.header-link:hover{
+    text-decoration: none;
+    color:#54a7f5;
+}
