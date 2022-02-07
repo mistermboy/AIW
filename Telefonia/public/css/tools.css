@@ -3,7 +3,7 @@
     justify-content: center;
     grid-template-rows: 10% auto;
     margin: 10vh 0px ; 
-    height: 130vh;
+    height: 150vh;
 }
 
 .tools-content h1{
@@ -22,15 +22,16 @@
 
 .tool{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 
-    height: 30vh;
+    height: 40vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .tool-img{
-    height: 210px;
-    width: 1000px;
+    height: 100%;
+    width: 100%;
+    
 }
 
 .tool-info-cont{

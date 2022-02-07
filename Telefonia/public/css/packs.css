@@ -1,9 +1,9 @@
 .packs-content{
     display: grid;
     justify-content: center;
-    grid-template-rows: 10% auto;
+    grid-template-rows: 5% 50% 8% auto;
     margin: 10vh 0px ; 
-    height: 150vh;
+    height: 100vh;
 }
 
 .packs-content h1{
@@ -12,9 +12,10 @@
 
 .packs-container{
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 150vh;
-    gap: 5vh;
+    grid-template-columns: 45% 45% 45%;
+    justify-content: center;
+    padding: 5vh 15vh;
+    gap: 8vh;
 }
 
 .pack{
@@ -23,6 +24,14 @@
     padding: 5vh 0vh;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.h2-config-pack{
+    text-align: start;
+}
+
+.pack-img{
+    justify-self: center;
 }
 
 .button {
