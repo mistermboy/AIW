@@ -1,0 +1,109 @@
+.pequenas-empresas-content{
+    display: grid;
+    grid-template-rows: 2% 5% 25% 15% auto ;
+    margin: 5vh 0px ; 
+    height: 220vh;
+}
+
+
+.pequenas-empresas-content h2,h1{
+    text-align: center;
+}
+
+.pequenas-empresas-content h2{
+       font-size: 1.5em;
+}
+
+.tarifas-empresas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5vh 15vh;
+    gap: 15vh;
+}
+
+.tarifa-empresa{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.info-tarifa-empresa{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+
+
+
+.empresas-banner h2{
+    color: white;
+    grid-column: 1/6;
+    font-size: 2.2em;
+}
+
+.contacto-empresa-container{
+    margin-top: 5vh;
+    padding: 2vh 40vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+}
+.contacto-empresa{
+    border: 1px solid #222;
+    border-radius: 1vh;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+    padding: 3vh;
+    gap:4vh;
+}
+
+
+.contacto-empresa button{
+    width: 80%;
+    margin-left: -2vh;
+}
+
+.pequenas-empresas-container{
+    display: grid;
+    grid-template-rows: 45% auto;
+    grid-template-columns: 90%;
+    justify-content: center;
+    justify-self: center;
+    width: 150vh;
+    gap: 5vh;
+}
+
+
+.empresa{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 45vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.empresa-img{
+    height: 100%;
+    width: 100%;
+}
+
+.empresa-info-cont{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-rows: 15% 70% 10%;
+    padding: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 

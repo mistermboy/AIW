@@ -1,0 +1,219 @@
+.configurador-content{
+    display: grid;
+    grid-template-rows: 2% 5% auto ; 
+    margin: 10vh 0px ; 
+    height: 100%;
+}
+
+.configurador-content h1,h2{
+    text-align: center;
+}
+
+.configurador-content h2{
+    font-size: 1em;
+    
+}
+
+.configurador-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:6vh;
+    justify-content: center;
+}
+
+.configurador-card{
+    height: 39vh;
+    width: 150vh;
+    box-shadow: 10px 5px 5px #f5f2f2;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 5vh;
+}
+
+.configurar-h3-card{
+    font-size: 1.8em;
+    margin-left: 5vh;
+}
+
+.configurador-card{
+    padding: 2vh 0vh;
+    display: grid;
+    grid-template-rows: 15% 30% 30% auto;
+}
+
+.configurador-card-2{
+    padding: 2vh 0vh;
+    display: grid;
+    grid-template-rows: 10% 10% 45% auto;
+    height: 45vh;
+    width: 150vh;
+    box-shadow: 10px 5px 5px #f5f2f2;
+    border: 1px solid #dfdfdf;
+}
+
+.configurador-h4{
+    color:#222;
+}
+
+.configurador-velocidad{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+
+.configurador-velocidad-1{
+    display: grid;
+    grid-template-columns: 15% auto;
+    align-items: center;
+}
+
+.configurador-velocidad-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:6vh;
+    align-items: center;
+}
+
+.configurador-velocidad-3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:6vh;
+    align-items: center;
+}
+.configurar-select{
+    width: 20vh;
+    height: 5vh;
+}
+
+.button-configurar{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-self: center;
+    width: 30vh;
+    height: 5vh;
+  } 
+
+
+.configurtar-movil-apart{
+    background-color: #d6d8da;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+}
+
+
+/* The container */
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .check-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .check-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .check-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .check-container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .configurador-card-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 4vh;
+    gap:2vh;
+  }
+
+  .configurador-sub-card{
+      display: grid;
+      grid-template-rows: auto auto;
+      border: 1px solid #dfdfdf;
+      justify-content: center;
+      padding: 2vh;
+      gap:1vh;
+    
+  }
+  .configurador-img{
+      height: 20vh;
+  }
+
+  .configurador-precio{
+      margin-bottom: 10vh;
+      height: 20vh;
+      text-align: end;
+  }
+
+  .outline{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }

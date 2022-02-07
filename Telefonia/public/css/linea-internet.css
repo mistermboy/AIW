@@ -1,0 +1,126 @@
+.linea-internet-content{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 2% 5% 30% 15% 25% auto ;
+    margin: 10vh 0px ; 
+    height: 170vh;
+}
+
+.linea-internet-content h1,h2{
+    text-align: center;
+}
+
+.linea-internet-content h2{
+    font-size: 1.2em;
+}
+
+
+.tarifas-lineas-internet{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5vh 15vh;
+    gap: 15vh;
+}
+
+.tarifa-linea-internet{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.info-tarifa-linea-internet{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.contacto-linea-internet-container{
+    padding: 2vh 40vh;
+    display: grid;
+    height: 1vh;
+    justify-content: center;
+    grid-template-columns: 100%;
+}
+.contacto-linea-internet{
+    border: 1px solid #222;
+    border-radius: 1vh;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+    padding: 3vh;
+    gap:4vh;
+}
+
+
+.contacto-linea-internet button{
+    width: 80%;
+    margin-left: -2vh;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 
+
+
+.razones-linea-internet-container{
+    display: grid;
+    background-color: #82c2fd;
+    align-items: center;
+}
+
+.razones-linea-internet-container h3{
+    color: white;
+    justify-self: center;
+}
+
+.razones-linea-internet{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0vh 20vh;
+    justify-content: space-between;
+    
+}
+
+.razon{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    max-width: 25vh;
+    gap:2vh;
+    color:white;
+}
+
+.localizador-linea-internet{
+    margin-top: 5vh;
+    padding: 2vh 40vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+}
+
+.localizador-linea-internet h3{
+    justify-self: center;
+}
+
+.buscador-linea-internet{
+    border: 1px solid #222;
+    border-radius: 1vh;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+    padding: 3vh;
+    gap:4vh;
+}
+
+.buscador-linea-internet button{
+    width: 80%;
+    margin-left: -2vh;
+}

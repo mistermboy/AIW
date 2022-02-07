@@ -1,0 +1,26 @@
+.velocidad-content{
+    display: grid;
+    justify-content: center;
+    margin: 10vh 0vh;
+}
+
+.velocidad-card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 5vh;
+}
+.velocidad-right-panel{
+    display: grid;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.test-v-cont{
+    line-height: 1.3em;
+}
+.internet-img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

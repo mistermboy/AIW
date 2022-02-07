@@ -1,0 +1,122 @@
+.grandes-empresas-content{
+    display: grid;
+    grid-template-rows: 5% 31.7% 15% 6% auto ;
+    margin: 5vh 0px ; 
+    height: 200vh;
+}
+
+
+
+.grandes-empresas-content h2,h1{
+    text-align: center;
+}
+
+.empresas-banner{
+    display: grid;
+    background-color: #82c2fd;
+    justify-content: center;
+}
+
+.empresa-img-2{
+    height:  100%;
+}
+
+
+.empresas-banner h2{
+    color: white;
+    grid-column: 1/6;
+    font-size: 2.2em;
+}
+
+.contacto-empresa-container{
+    margin-top: 5vh;
+    padding: 2vh 40vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+}
+.contacto-empresa{
+    border: 1px solid #222;
+    border-radius: 1vh;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+    padding: 3vh;
+    gap:4vh;
+}
+
+
+.contacto-empresa button{
+    width: 80%;
+    margin-left: -2vh;
+}
+
+.grandes-empresas-container{
+    display: grid;
+    grid-template-rows: 45% auto;
+    grid-template-columns: 90%;
+    justify-content: center;
+    justify-self: center;
+    width: 150vh;
+    gap: 5vh;
+}
+
+
+.empresa{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 45vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.empresa-img{
+    height: 60%;
+    width: 1000%;
+}
+
+.empresa-img-cont{
+    height: 100% ;
+}
+
+.empresa-info-cont{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-rows: 10% 75% 5%;
+    padding: 20px;
+}
+
+.empresa-info-cont-2{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-rows: 10% 70% 5%;
+    padding: 20px;
+}
+
+.empresa-info-img{
+    height: 100%;
+}
+
+.empresa-info-cont-2{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-rows: 10% 55% 5%;
+    padding: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .empresa{
+    height: 40vh !important;
+}

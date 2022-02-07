@@ -1,0 +1,46 @@
+.packs-content{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 5% 50% 8% auto;
+    margin: 10vh 0px ; 
+    height: 100vh;
+}
+
+.packs-content h1{
+    text-align: center;
+}
+
+.packs-container{
+    display: grid;
+    grid-template-columns: 45% 45% 45%;
+    justify-content: center;
+    padding: 5vh 15vh;
+    gap: 8vh;
+}
+
+.pack{
+    display: grid;
+    grid-template-rows: 20% 45% 20% 15%;
+    padding: 5vh 0vh;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.h2-config-pack{
+    text-align: start;
+}
+
+.pack-img{
+    justify-self: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

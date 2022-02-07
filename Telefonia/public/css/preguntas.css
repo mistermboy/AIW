@@ -1,0 +1,40 @@
+.content{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 10% auto;
+    margin: 10vh 0px ; 
+    height: 130vh;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.preguntas-container{
+    display: grid;
+    grid-template-rows: 1% 8% 50%;
+    grid-template-columns: 90%;
+    justify-content: center;
+    width: 150vh;
+    gap: 5vh;
+}
+
+.preguntas-filtro{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    padding: 0vh 25vh;
+    gap: 5vh;
+}
+
+.preguntas-resultado{
+    display: grid;
+}
+
+.preguntas-seccion{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    border-bottom: 3px solid #222;
+}
