@@ -1,6 +1,6 @@
 .pequeñas-empresas-content{
     display: grid;
-    grid-template-rows: 2% 5% 25% 8% auto ;
+    grid-template-rows: 2% 5% 25% 15% auto ;
     margin: 5vh 0px ; 
     height: 220vh;
 }
@@ -35,9 +35,6 @@
 }
 
 
-.empresas-banner img{
-    width: 40vh;
-}
 
 
 .empresas-banner h2{
