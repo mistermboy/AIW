@@ -1,6 +1,6 @@
 .configurador-content{
     display: grid;
-    grid-template-rows: 2% 10% auto ; 
+    grid-template-rows: 2% 5% auto ; 
     margin: 10vh 0px ; 
     height: 100%;
 }
@@ -194,4 +194,26 @@
   }
   .configurador-img{
       height: 20vh;
+  }
+
+  .configurador-precio{
+      margin-bottom: 10vh;
+      height: 20vh;
+      text-align: end;
+  }
+
+  .outline{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
   }
