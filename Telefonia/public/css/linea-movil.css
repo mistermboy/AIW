@@ -1,36 +1,37 @@
-.movil-content{
+.linea-movil-content{
     display: grid;
     justify-content: center;
-    grid-template-rows: 2% 3% 25% 15% 25% auto ;
+    grid-template-rows: 2% 5% 25% 15% 25% auto ;
     margin: 10vh 0px ; 
     height: 220vh;
 }
 
-.movil-content h1,h2{
+.linea-movil-content h1,h2{
     text-align: center;
 }
 
-.movil-content h2{
+.linea-movil-content h2{
     font-size: 1.2em;
 }
 
 
 .tarifas-lineas-movil{
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 20% 20% 20%;
     justify-content: center;
-    padding: 5vh 15vh;
     gap: 15vh;
 }
 
 .tarifa-linea-movil{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5vh;
+    height: 50vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+.tarifa-linea-movil img{
+    height: 100%;
+    width: 100%;
+}
+
 .info-tarifa-linea-movil{
     display: grid;
     grid-template-columns: 20% 80%;
