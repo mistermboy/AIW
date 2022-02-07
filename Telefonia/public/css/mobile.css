@@ -24,8 +24,8 @@
 .mobile-card{
     display: grid;
     justify-content: center;
-    grid-template-rows: 60% 20% 20%;
-    height: 50vh;
+    grid-template-rows: 100%;
+    height: 42vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -290,4 +290,8 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .movil-ref:hover{
+    text-decoration: none;
   }
