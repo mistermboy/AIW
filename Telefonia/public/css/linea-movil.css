@@ -17,7 +17,8 @@
 
 .tarifas-lineas-movil{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
     padding: 5vh 15vh;
     gap: 15vh;
 }
@@ -146,14 +147,13 @@
 
 .interes{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     height: 30vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .interes-img{
-    height: 210px;
-    width: 1000px;
+    height: 100% ;
 }
 
 .interes-info-cont{

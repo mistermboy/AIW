@@ -90,6 +90,7 @@
     grid-template-columns:  auto auto auto;
     justify-content: center;
     align-items: center;
+    line-height: 0.1em;
 }
 
 .canales-incluidos p{
