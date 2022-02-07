@@ -1,8 +1,8 @@
 .home-content{
     display: grid;
-    grid-template-rows: 27% 8% 32% 8% 27.9%;
+    grid-template-rows: 27% 8% 28% 10% 29.8%;
     margin: 10vh 0px ; 
-    height: 160vh;
+    height: 150vh;
     padding: 0vh 30vh;
 }
 

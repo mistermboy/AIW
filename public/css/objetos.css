@@ -4,7 +4,8 @@
 .obj-card{
   display: grid;
   justify-content: center;
-  height: 38vh;
+  grid-template-rows: 50% 35% 15%;
+  height: 45vh;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   text-align: center;
 }
