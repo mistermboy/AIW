@@ -58,3 +58,7 @@
   .a-home:hover{
     color: white;
   }
+
+  .uk-list a{
+    font-weight: normal;
+  }
