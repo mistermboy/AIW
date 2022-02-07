@@ -53,3 +53,7 @@
     text-decoration: none;
     color:#54a7f5;
 }
+
+button{
+    cursor: pointer;
+}

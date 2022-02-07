@@ -27,16 +27,16 @@
 }
 
 .ayuda-img{
-    height: 210px;
-    width: 1000px;
+    height: 100%;
 }
 
 .ayuda-info-cont{
     display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-rows: 10% 50% 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-rows: 10% 70% 20%;
     padding: 20px;
+    grid-template-columns: 100%;
 }
 
 .button {
