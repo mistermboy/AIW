@@ -2,23 +2,25 @@ https://www.plus.net/
 
 https://www.plus.net/careers/
 https://www.plus.net/careers/applying/
-https://www.plus.net/careers/jobs/					-> Fuzzy
-https://www.plus.net/careers/our-people/ 				-> Fuzzy
-https://www.plus.net/careers/about-us/					-> Fuzzy
+https://www.plus.net/careers/jobs/					-> Fuzzy (no)
+https://www.plus.net/careers/our-people/ 				-> Fuzzy (no)
+https://www.plus.net/careers/about-us/					-> Fuzzy (yes)
 
 https://www.plus.net/business/
 https://www.plus.net/business/discover/
 https://www.plus.net/business/moving-premises/
 https://www.plus.net/business/partner-with-us/
 https://www.plus.net/business/contact/
-https://www.plus.net/business/broadband/ 			-> Similarity
-https://www.plus.net/business/discover/google-my-business-guide/	-> Fuzzy
+https://www.plus.net/business/broadband/ 				-> Similarity (yes)
+https://www.plus.net/business/discover/google-my-business-guide/	-> Fuzzy (yes)
 
 https://www.plus.net/broadband/
 https://www.plus.net/broadband/extras/
 https://www.plus.net/broadband/switch/
 https://www.plus.net/broadband/discover/
-https://www.plus.net/broadband/discover/discover-fibre-extra/   -> Similarity
+https://www.plus.net/broadband/discover/discover-fibre			-> Similarity (yes)
+https://www.plus.net/broadband/discover/discover-fibre-extra/   	-> Similarity (yes)
+https://www.plus.net/broadband/discover/discover-broadband 		-> Similarity (yes)
 https://www.plus.net/broadband/phone-faqs/
 https://www.plus.net/broadband/moving-home/
 https://www.plus.net/broadband/general-faqs/
@@ -27,17 +29,29 @@ https://www.plus.net/broadband/fibre-and-phone/
 
 
 https://www.plus.net/perks/
-https://www.plus.net/perks/recommend-a-friend/ 			-> Similarity   (NO ME PARECE QUE TENGA QUE VER CON EXTRAS)
+https://www.plus.net/perks/recommend-a-friend/ 				-> Similarity   (no)
 
 
 https://www.plus.net/bt-sport/
 https://www.plus.net/contact-us/
 
 
-https://www.plus.net/mobile/deals/standard/12/6gb/Jun20		-> Similarity
-https://www.plus.net/mobile/deals/15/50GB/unl/unl/Sep21		-> Similarity
+https://www.plus.net/mobile/deals/standard/12/6gb/Jun20			-> Similarity (yes)
+https://www.plus.net/mobile/deals/15/50GB/unl/unl/Sep21			-> Similarity (yes)
 
-https://www.plus.net/about-us/					-> Similarity
+https://www.plus.net/about-us/						-> Similarity (no)
+
+
+/business/	   -> Fuzzy (mia)
+/careers/applying  -> Similarity (mia)
+
+###### Exhaustividad #####
+Fuzy -> Detecté como difusas manualmente (3), de esas el sitema me dio como difusas (2)  
+Similarity > Detecté como similares manualmente (8), de esas el sitema me dio como difusas (7)  
+
+###### Precisión #####
+Fuzy -> El sistema me dio como difusas (4), de esas detecté (2) como difusas manualmente 
+Similarity -> El sistema me dio como similares (9), de esas detecté (7) como similares manualmente 
 
 	
 
